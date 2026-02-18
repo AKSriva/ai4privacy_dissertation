@@ -38,3 +38,7 @@ data/external/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# ---- Processed data / splits (keep out of GitHub) ----
+data/processed/
+*.parquet
