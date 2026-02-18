@@ -23,6 +23,17 @@ outputs/
 *.bin
 *.safetensors
 
+# ---- Dissertation large files ----
+.venv/
+outputs/
+data/raw/
+data/external/
+**/checkpoint-*/
+*.pt
+*.safetensors
+*.bin
+*.jsonl
+
 # --- OS / editors ---
 .DS_Store
 Thumbs.db
