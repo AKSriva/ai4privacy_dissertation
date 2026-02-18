@@ -1,0 +1,29 @@
+# --- Python / environments ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# --- Data ---
+data/raw/
+data/external/
+*.jsonl
+
+# Keep processed splits ONLY if you want them in Git
+# (If too large, ignore them too)
+# data/processed/
+
+# --- Outputs / runs / checkpoints ---
+outputs/
+**/checkpoint-*/
+*.pt
+*.bin
+*.safetensors
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
